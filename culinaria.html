@@ -3,58 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descubra a Itália</title>
+    <title>Descubra a Itália - Culinária</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Cabeçalho -->
     <header class="bg-dark text-white py-3">
         <div class="container d-flex align-items-center justify-content-between">
-            <!-- Logo com a bandeira da Itália -->
-             
             <div class="BandeiraLogo">
                 <a href="index.html">
                     <img src="img/bandeira.png" alt="Bandeira da Itália" width="40" height="30" class="me-2">
                 </a>
             </div>
-    
-            <!-- Navegação com classe personalizada -->
-        <div class="PaginasNav">
-            <nav class="PaginasNav">
+            <nav class="PaginasNav d-flex">
                 <a class="nav-link text-white" href="index.html">Início</a>
                 <a class="nav-link text-white" href="culinaria.html">Culinária</a>
                 <a class="nav-link text-white" href="pontos-turisticos.html">Pontos Turísticos</a>
                 <a class="nav-link text-white" href="comentarios.html">Comentários</a>
             </nav>
-            </div>
         </div>
     </header>
-    
-    <div class="container my-5 d-flex justify-content-between">
-        <!-- Card 1 à esquerda -->
-        <div class="Card1Index">
-            <div class="card">
+
+    <!-- Título centralizado para os pratos populares -->
+    <div class="IntorducaoCulinaria">
+        <h2>Pratos Populares da Itália</h2>
+    </div>
+
+
+    <!-- Cards dos Pratos -->
+    <div class="container-pratos">
+        <!-- Card 1 -->
+        <div class="prato-container">
+            <div class="card prato-card">
                 <div class="card-body">
-                    <h5 class="card-title">Bem-vindo à Itália</h5>
-                    <img src="img/Fundo1Index.jpg" alt="Antiga estrutura italiana" class="card-img mt-3">
-                    <p class="card-text">A Itália é um país fascinante, com uma história rica e uma cultura vibrante. Explore e conheça mais sobre este incrível destino.</p>
+                    <h5 class="card-title">Prato 1</h5>
+                    <img src="img/prato1.jpg" alt="Imagem do prato 1" class="card-img-top">
+                    <p class="card-text">Descrição breve do prato italiano aqui.</p>
                 </div>
             </div>
         </div>
-    
-        <!-- Card 2 à direita -->
-        <div class="Card2Index">
-            <div class="card">
+        
+        <!-- Card 2 -->
+        <div class="prato-container">
+            <div class="card prato-card">
                 <div class="card-body">
-                    <h5 class="card-title">História da Itália</h5>
-                    <img src="img/Fundo2Index.jpg" alt="Antiga estrutura italiana" class="card-img mt-3">
-                    <p class="card-text">Da Roma Antiga ao Renascimento, a história da Itália é uma das mais influentes e fascinantes do mundo.</p>
+                    <h5 class="card-title">Prato 2</h5>
+                    <img src="img/prato2.jpg" alt="Imagem do prato 2" class="card-img-top">
+                    <p class="card-text">Descrição breve do prato italiano aqui.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="prato-container">
+            <div class="card prato-card">
+                <div class="card-body">
+                    <h5 class="card-title">Prato 3</h5>
+                    <img src="img/prato3.jpg" alt="Imagem do prato 3" class="card-img-top">
+                    <p class="card-text">Descrição breve do prato italiano aqui.</p>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Rodapé -->
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Descubra a Itália</p>
     </footer>
